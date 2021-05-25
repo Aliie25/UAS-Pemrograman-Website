@@ -1,0 +1,213 @@
+/* start admin style*/
+
+* {padding:0px; margin:0px; }
+a, a:visited {color:#000;  text-decoration:none;}
+a:hover { color:#099; text-decoration:none;}
+
+body {
+    background: #fff;
+    font-family:Bizon;
+    font-size:0.9 em;
+    color:#444;
+
+}
+
+#wrapper{
+  margin:auto;
+  width:1200px;
+  padding:6px;
+  background:#4c4c4c;
+  padding:10px;
+	-moz-box-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+	-khtml-box-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 3px;
+	background:transparent;
+  border:5px #3c3b3b solid;
+}
+
+#login{
+
+    height:auto;
+    width:400px;
+    padding:10px;
+    border-radius:5px;
+}
+
+#login_input{
+
+    background:#fff;
+	  padding:10px;
+    height:auto;
+    width:100%;
+    border: 3px #000 solid;
+    border-radius:5px;
+}
+
+.teksbok_admin{
+    font-size:20px;
+    text-align:center;
+    margin: 10px;
+    border:1px solid #ccc;
+    width:300px;
+    height:45px;
+    border-radius:4px;
+}
+.btn_submit{
+    background:#4d4e4d;
+    width:120px;
+	padding:5px;
+    color:#fff;
+    font-weight:bold;
+    border:1px solid #4d4e4d;
+    border-radius: 3px;
+	border-bottom:3px solid #444;
+}
+.btn_submit:hover {
+   background:#444;
+   color:#fff;
+   font-weight:bold;
+   cursor:pointer;
+   border:1px solid #4d4e4d;
+   border-bottom:3px solid #4d4e4d;
+}
+.tombol_login{
+  background:#5d5d5d;
+  width:220px;
+  height:40px;
+	padding:5px;
+  color:#fff;
+  font-weight:bold;
+  border:1px solid #5d5d5d;
+  border-radius:5px;
+}
+
+.tombol_login:hover{
+   background:#444;
+   color:#fff;
+   font-weight:bold;
+   cursor:pointer;
+}
+
+#bg_admin_menu{
+    background:#4c4c4c;
+    height:26px;
+    width:100%;
+    padding-top:5px;
+}
+
+.adminmenu ul {list-style:none; }
+.adminmenu ul li {
+    color:#fff;
+     float:left;
+     margin:3px 2px 0px 20px;
+     padding:0px;
+     }
+.adminmenu ul li a{
+     color:#fff;
+     }
+
+
+
+
+
+#head_admin {
+    text-align:center;
+    background:#fff url(../images/logoFix.png) no-repeat top left;
+    background-size: 300px;
+    height:75px;
+    border-bottom:3px #fff solid;
+    color:#fff;
+
+    }
+
+#head_admin h1{
+    width:auto;
+    color:#fff;
+    font-family:Cooper Black;
+    font-size:3em;
+    border:1px solid #fff;
+    border-radius:6px;
+
+    }
+h2{
+    color:#333;
+    font-family:Cooper Black;
+    font-size:2.4 em;
+    }
+
+
+
+
+#bgkonten {
+    padding:6px;
+    height:auto;
+    width:auto;
+    text-align: left;
+
+}
+.bgproduct td{
+ border : 1px solid #ccc;
+ padding:6px;
+}
+.btn{
+    width:100px;
+    height:30px;
+
+    margin-bottom:3px;
+    }
+.btn:hover{
+   background:#333;
+   color:#fff;
+   font-weight:bold;
+   cursor:pointer;
+   border-radius:10px;
+    }
+.texbox{
+    height:30px;
+    border:1px #2F4F4F solid;
+     border-bottom: 3px #2F4F4F solid;
+}
+.textarea{
+     border:1px #2F4F4F solid;
+     border-bottom: 5px #2F4F4F solid;
+}
+
+.ganti_pass{
+    height:auto;
+    width:40%;
+    border: 3px #333 solid;
+    border-bottom: 15px #333 solid;
+    background:#fff;
+}
+.cleared {clear:both;}
+
+#data_pembeli{
+   font-size:20px;
+    width:800px;
+
+     padding:6px;
+}
+#alamat_pembeli{
+   font-size:20px;
+    width:800px;
+
+     padding:6px;
+}
+
+#alamat_order{
+    font-size:20px;
+    width:800px;
+     border-top:1px solid #333;
+     padding:6px;
+     text-align:center;
+}
+
+
+
+
+/* end admin style*/
