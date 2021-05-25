@@ -1,2 +1,3 @@
 # UAS-Pemrograman-Website
-UAS PHP
+Amati Tiru Modifikasi
+Enjoy
